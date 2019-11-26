@@ -1,26 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-20T19:49:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Share to study, Study to Share</title><subtitle>TIL log, Tips, Memos, etc.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/11/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-11-20T19:39:07+09:00</published><updated>2019-11-20T19:39:07+09:00</updated><id>http://localhost:4000/jekyll/update/2019/11/20/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/11/20/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">My First Step</title><link href="http://localhost:4000/2019/11/20/first-article.html" rel="alternate" type="text/html" title="My First Step" /><published>2019-11-20T17:12:40+09:00</published><updated>2019-11-20T17:12:40+09:00</updated><id>http://localhost:4000/2019/11/20/first-article</id><content type="html" xml:base="http://localhost:4000/2019/11/20/first-article.html">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-26T10:45:29+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Share to study, Study to Share</title><subtitle>TIL log, Tips, Memos, etc.</subtitle><entry><title type="html">This Week Plan</title><link href="http://localhost:4000/2019/11/26/TIL.html" rel="alternate" type="text/html" title="This Week Plan" /><published>2019-11-26T10:30:00+09:00</published><updated>2019-11-26T10:30:00+09:00</updated><id>http://localhost:4000/2019/11/26/TIL</id><content type="html" xml:base="http://localhost:4000/2019/11/26/TIL.html">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;팀에 도움이 되고 있는지 고민이 필요하다.
+    &lt;ul&gt;
+      &lt;li&gt;내가 조인하고 팀원들의 일을 분담하는 역할을 하고 있는지? 아니라면 난 왜 아직 도움이 안되나?&lt;/li&gt;
+      &lt;li&gt;지금은 너무 소극적으로 몸을 좀 웅크리고 있는 느낌&lt;/li&gt;
+      &lt;li&gt;적극적으로 팀원들을 도와주려고 노력하자&lt;/li&gt;
+      &lt;li&gt;어떻게 하면 일을 프로젝트를 잘 매니징할수 있을지에 대한 고민을 계속 하자&lt;/li&gt;
+      &lt;li&gt;큰 그림은 항상 머리에 가지고 진행상황을 판단하고 나아갈 방향을 생각하는게 필요&lt;/li&gt;
+      &lt;li&gt;그 안에서 내가 할 수 있는 역할을 하자&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코딩을 매일 한줄이라도 commit하자
+    &lt;ul&gt;
+      &lt;li&gt;개발을 손에서 놓으면 안될거 같음&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이번주
+    &lt;ul&gt;
+      &lt;li&gt;I3D 논문 다보고 다음주에 논문 리뷰 세미나 목표&lt;/li&gt;
+      &lt;li&gt;RNN study 하고 내용 정리&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">TIL 팀에 도움이 되고 있는지 고민이 필요하다. 내가 조인하고 팀원들의 일을 분담하는 역할을 하고 있는지? 아니라면 난 왜 아직 도움이 안되나? 지금은 너무 소극적으로 몸을 좀 웅크리고 있는 느낌 적극적으로 팀원들을 도와주려고 노력하자 어떻게 하면 일을 프로젝트를 잘 매니징할수 있을지에 대한 고민을 계속 하자 큰 그림은 항상 머리에 가지고 진행상황을 판단하고 나아갈 방향을 생각하는게 필요 그 안에서 내가 할 수 있는 역할을 하자 코딩을 매일 한줄이라도 commit하자 개발을 손에서 놓으면 안될거 같음 이번주 I3D 논문 다보고 다음주에 논문 리뷰 세미나 목표 RNN study 하고 내용 정리</summary></entry><entry><title type="html">My First Step</title><link href="http://localhost:4000/2019/11/20/first-article.html" rel="alternate" type="text/html" title="My First Step" /><published>2019-11-20T17:12:40+09:00</published><updated>2019-11-20T17:12:40+09:00</updated><id>http://localhost:4000/2019/11/20/first-article</id><content type="html" xml:base="http://localhost:4000/2019/11/20/first-article.html">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;이렇게 하는건가??&lt;/li&gt;
   &lt;li&gt;jekyll + github 으로 블로그 호스팅 시작
     &lt;blockquote&gt;
+      &lt;p&gt;참고 페이지&lt;/p&gt;
+
       &lt;p&gt;https://jekyllrb-ko.github.io/docs/home/&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
+  &lt;li&gt;_posts 디렉토리에 YYYY-MM-dd-title.md 파일을 만들고, bundler jekyll exec serve하면 _sites 디렉토리에 md파일이 컴파일?되서 html로 생성되어 지고 127.0.0.1:4000 에 들어가면  확인이 가능하다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;_sites 에 생성된 파일만 git에 push하는 구조&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;매일 회사에서나 집에서 알게된 것들 좀 정리해보고자 하는 의도?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">TIL 이렇게 하는건가?? jekyll + github 으로 블로그 호스팅 시작 https://jekyllrb-ko.github.io/docs/home/ 매일 회사에서나 집에서 알게된 것들 좀 정리해보고자 하는 의도?</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">TIL 이렇게 하는건가?? jekyll + github 으로 블로그 호스팅 시작 참고 페이지 https://jekyllrb-ko.github.io/docs/home/</summary></entry></feed>
