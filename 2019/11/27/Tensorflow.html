@@ -1,0 +1,47 @@
+<h2 id="cnn">CNN</h2>
+
+<ul>
+  <li>Simple CNN for Cifar10 Dataset</li>
+  <li>큰 흐름은 항상 같음
+    <ol>
+      <li>Setting hyperparameters</li>
+      <li>Dataset 만들기</li>
+      <li>Model 만들기</li>
+      <li>Model compile</li>
+      <li>Training</li>
+    </ol>
+  </li>
+  <li>몇 가지 terminology
+    <ul>
+      <li><code class="highlighter-rouge">shuffle(buffer_size)</code>   buffer_size안에서 random selelction하기 때문에(shuffle) 완벽하게  shuffle되기를 원하면 buffer size는 datase size 와 같거나 크게 잡아야 함.</li>
+      <li><code class="highlighter-rouge">step</code> weight를 업데이트 하는 단위</li>
+      <li><code class="highlighter-rouge">epoch</code>  전체 데이터를 다 한번 처리하면 1 epoch</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="learning-rate">Learning Rate</h3>
+
+<p>learning rate에 따라 학습 결과가 달라짐.</p>
+
+<ul>
+  <li>Learning Rate Decay
+    <ul>
+      <li>처음에는 크게 움직이다가 일정 조건이 되면 learning rate를 낮춰서 점점 작게 움직이는 것</li>
+      <li>constant warmup, gradual warmup</li>
+    </ul>
+  </li>
+  <li>Cyclic Learning Rate
+    <ul>
+      <li>saddle point를 빠져나갈수 있나?</li>
+      <li>saddle point에서는 learning rate를 키워서 빠져나가야 효과적이기 때문에, learning rate를 주기적으로 변경해보자</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="underfitteing-vs-overfitting">Underfitteing vs Overfitting</h3>
+
