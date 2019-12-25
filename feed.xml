@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-06T11:45:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Share to study, Study to Share</title><subtitle>TIL log, Tips, Memos, etc.</subtitle><entry><title type="html">Slack으로 AWS Instance Start/Stop하기</title><link href="http://localhost:4000/2019/12/06/instance-onoff-using-slackbot.html" rel="alternate" type="text/html" title="Slack으로 AWS Instance Start/Stop하기" /><published>2019-12-06T10:30:00+09:00</published><updated>2019-12-06T10:30:00+09:00</updated><id>http://localhost:4000/2019/12/06/instance-onoff-using-slackbot</id><content type="html" xml:base="http://localhost:4000/2019/12/06/instance-onoff-using-slackbot.html">&lt;h2 id=&quot;slack으로-인스턴스-startstop-하기&quot;&gt;Slack으로 인스턴스 Start/Stop 하기&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-25T17:06:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Share to study, Study to Share</title><subtitle>TIL log, Tips, Memos, etc.</subtitle><entry><title type="html">Fist Project Postmortem</title><link href="http://localhost:4000/2019/12/25/postmortem.html" rel="alternate" type="text/html" title="Fist Project Postmortem" /><published>2019-12-25T16:40:00+09:00</published><updated>2019-12-25T16:40:00+09:00</updated><id>http://localhost:4000/2019/12/25/postmortem</id><content type="html" xml:base="http://localhost:4000/2019/12/25/postmortem.html">&lt;h2 id=&quot;postmortem&quot;&gt;Postmortem&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;잘한 점&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;첫 과제였는데 모든 프로세스를 끝까지 경험해봄&lt;/li&gt;
+      &lt;li&gt;BP와 함께 일하는게 어떻게 진행되는지 업무 프로세스 파악&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;아쉬운 점&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;문서화&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;프로젝트 초기에 wiki에 문서화를 잘 해주기를 요청함&lt;/li&gt;
+          &lt;li&gt;But 문서화가 잘 안되서 진행상황을 follow up 하기가 쉽지 않았음&lt;/li&gt;
+          &lt;li&gt;나중에 알고 보니 BP 내부에서 쓰는 레드마인이 있어서 두번 문서작업을 해야하는 번거로움이 있음을 알게 됨&lt;/li&gt;
+          &lt;li&gt;지금 생각으로는 내부 wiki에 작성한걸 좀더 정리해서 진행상황 공유를 꾸준히 해주길 지속적으로 요청해야함(PM이 꾸준히 요청) 그래야 나중에 과제 종료시에 아주 훨씬 편함&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;코드 공유&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;bitbucket 으로 과제 종료시에만 공유가 됨&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;데이터를 직접 확인하지 못함. 방화벽 문제가 있었는데 유야 무야 지난간거는 문제로 보이고 최종적으로 감수를 전혀 안함&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;회의&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;회의 내용의 퀄리티를 높이고 미스 커뮤니케이션이 없도록 회의 날짜 전에 반드시 문서를 공유해주도록 요청하거나 요구사항을 사전에 명확하게 전달&lt;/li&gt;
+          &lt;li&gt;공유된 내용을 미리 숙지하고 질문 사항을 정리해서 해결하는 방향&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;설계&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;요구사항을 명확하게 전달해야함(일을 두번하지 않게)
+            &lt;ul&gt;
+              &lt;li&gt;성능 수치를 뽑는다고 가정하면 평가 방법등등을 먼저 제시해주고 원하는 방향이 없으면 믿고 맡긴다.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;내용을 내가 더 많이 알아야 리딩을 할수 있음&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;소회&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;업무에 집중할수 있고 꼭 해야하는 일에 집중하도록 하자&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;내가 더 공부하고 앞에서 리딩해줘야 함&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;꼼꼼하게 진행하지만 적당히 권한을 위임해야 동기부여가 될듯&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;커뮤니이션에 좀더 신중하자&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;개인적인 감정을 드러내지 않도록 조심&lt;/li&gt;
+          &lt;li&gt;좀 더 밀접하게 커뮤니케이션 하도록 노력&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Postmortem</summary></entry><entry><title type="html">Slack으로 AWS Instance Start/Stop하기</title><link href="http://localhost:4000/2019/12/06/instance-onoff-using-slackbot.html" rel="alternate" type="text/html" title="Slack으로 AWS Instance Start/Stop하기" /><published>2019-12-06T10:30:00+09:00</published><updated>2019-12-06T10:30:00+09:00</updated><id>http://localhost:4000/2019/12/06/instance-onoff-using-slackbot</id><content type="html" xml:base="http://localhost:4000/2019/12/06/instance-onoff-using-slackbot.html">&lt;h2 id=&quot;slack으로-인스턴스-startstop-하기&quot;&gt;Slack으로 인스턴스 Start/Stop 하기&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;말 못할 사정으로 다른 사람이 요청할때 마다, 인스턴스를 켜고 꺼줘야 하는 상황이 됨&lt;/li&gt;
