@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-01-09T19:12:04+09:00</updated><id>/feed.xml</id><title type="html">Share to study, Study to Share</title><subtitle>TIL log, Tips, Memos, etc.</subtitle><entry><title type="html">Fist Project Postmortem</title><link href="/2019/12/25/postmortem.html" rel="alternate" type="text/html" title="Fist Project Postmortem" /><published>2019-12-25T16:40:00+09:00</published><updated>2019-12-25T16:40:00+09:00</updated><id>/2019/12/25/postmortem</id><content type="html" xml:base="/2019/12/25/postmortem.html">&lt;h2 id=&quot;postmortem&quot;&gt;Postmortem&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-01-11T21:49:40+09:00</updated><id>/feed.xml</id><title type="html">Share to study, Study to Share</title><subtitle>TIL log, Tips, Memos, etc.</subtitle><entry><title type="html">SAA 준비</title><link href="/2020/01/11/SAA.html" rel="alternate" type="text/html" title="SAA 준비" /><published>2020-01-11T21:30:00+09:00</published><updated>2020-01-11T21:30:00+09:00</updated><id>/2020/01/11/SAA</id><content type="html" xml:base="/2020/01/11/SAA.html">&lt;h2 id=&quot;saa-준비&quot;&gt;SAA 준비&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;동기&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;2020년 새해 목표 중에 자기 계발을 위한 자격증 시험을 한두가지 정도 보고 싶다는 생각이 들어서 &lt;del&gt;(새해 병이 도짐)&lt;/del&gt; 생각중에 전부터 관심이 좀 있었던 &lt;a href=&quot;https://aws.amazon.com/ko/certification/certified-solutions-architect-associate/&quot;&gt;SAA&lt;/a&gt;, &lt;a href=&quot;https://aws.amazon.com/ko/certification/certified-solutions-architect-professional/&quot;&gt;SAP&lt;/a&gt;를 2020년에 도전해보려고 함&lt;/li&gt;
+      &lt;li&gt;뭔가 내가 어느 정도 수준인가 확인도 하고? 뭔가 인증 받고 싶은 갈망 &lt;del&gt;(뱃지가 갖고 싶어요)&lt;/del&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;준비
+    &lt;ul&gt;
+      &lt;li&gt;블로깅도 해보고 Slack에 있던 링크들을 조금 봤는데 AWS의 경험이 있으면 Associate의 경우에는 한달 정도 공부하면 가능했다고 해서 2월 13일 시험을 결재함(내돈 $150.. 187,000원..)&lt;/li&gt;
+      &lt;li&gt;동기들도 마침 준비하겠다는 친구들이 있어서 같이 준비하기로. 역시 같이 해야 꾸준히 할 수 있을듯 :)&lt;/li&gt;
+      &lt;li&gt;일단 &lt;a href=&quot;https://www.udemy.com/course/aws-certified-solutions-architect-associate/&quot;&gt;Udmey 강의&lt;/a&gt; 를 듣고 Hands-on을 해보고 모의고사를 보고 (이것도 Udemy에서..) 부족한 부분 강의를 다시 듣고, 백서/FAQ 등등을 보다가 시험을 보기로 함&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;시작이 반
+    &lt;ul&gt;
+      &lt;li&gt;오늘 처음으로 Udemy 강의를 좀 들었는데, 일단 영어라 듣기평가를 하는 기분이고 너무 집중해서 들어야 해서 피곤이 두배.. 자동 생성된 자막이 있다지만 확실히 더 힘들긴 함&lt;/li&gt;
+      &lt;li&gt;회사에서 AWS를 써봐서 그나마 다행이라는 생각이 듦&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;한번에 붙을수 있도록 나님 화이팅&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">SAA 준비</summary></entry><entry><title type="html">Fist Project Postmortem</title><link href="/2019/12/25/postmortem.html" rel="alternate" type="text/html" title="Fist Project Postmortem" /><published>2019-12-25T16:40:00+09:00</published><updated>2019-12-25T16:40:00+09:00</updated><id>/2019/12/25/postmortem</id><content type="html" xml:base="/2019/12/25/postmortem.html">&lt;h2 id=&quot;postmortem&quot;&gt;Postmortem&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
