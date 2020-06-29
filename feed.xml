@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-01-11T21:49:40+09:00</updated><id>/feed.xml</id><title type="html">Share to study, Study to Share</title><subtitle>TIL log, Tips, Memos, etc.</subtitle><entry><title type="html">SAA 준비</title><link href="/2020/01/11/SAA.html" rel="alternate" type="text/html" title="SAA 준비" /><published>2020-01-11T21:30:00+09:00</published><updated>2020-01-11T21:30:00+09:00</updated><id>/2020/01/11/SAA</id><content type="html" xml:base="/2020/01/11/SAA.html">&lt;h2 id=&quot;saa-준비&quot;&gt;SAA 준비&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-06-29T10:27:42+09:00</updated><id>/feed.xml</id><title type="html">Share to study, Study to Share</title><subtitle>TIL log, Tips, Memos, etc.</subtitle><entry><title type="html">SAA 준비</title><link href="/2020/01/11/SAA.html" rel="alternate" type="text/html" title="SAA 준비" /><published>2020-01-11T21:30:00+09:00</published><updated>2020-01-11T21:30:00+09:00</updated><id>/2020/01/11/SAA</id><content type="html" xml:base="/2020/01/11/SAA.html">&lt;h2 id=&quot;saa-준비&quot;&gt;SAA 준비&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -108,17 +108,44 @@
 &lt;/ul&gt;</content><author><name></name></author><summary type="html">Postmortem</summary></entry><entry><title type="html">Slack으로 AWS Instance Start/Stop하기</title><link href="/2019/12/06/instance-onoff-using-slackbot.html" rel="alternate" type="text/html" title="Slack으로 AWS Instance Start/Stop하기" /><published>2019-12-06T10:30:00+09:00</published><updated>2019-12-06T10:30:00+09:00</updated><id>/2019/12/06/instance-onoff-using-slackbot</id><content type="html" xml:base="/2019/12/06/instance-onoff-using-slackbot.html">&lt;h2 id=&quot;slack으로-인스턴스-startstop-하기&quot;&gt;Slack으로 인스턴스 Start/Stop 하기&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;말 못할 사정으로 다른 사람이 요청할때 마다, 인스턴스를 켜고 꺼줘야 하는 상황이 됨&lt;/li&gt;
-  &lt;li&gt;처음에는 웹으로 로긴해서 버튼 클릭&lt;/li&gt;
-  &lt;li&gt;매번 웹으로 로긴해서 인스턴스를 ip로 검색해서 버튼 클릭이 귀찮아져서 boto3를 이용해서 start/stop할수 있는 python script를 만들었음
-&lt;a href=&quot;https://github.com/sunholee0127/skt-scripts/blob/master/chatbot/aws_manage.py&quot;&gt;Python Script&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;근데 생각해보니 매번 Slack 으로 요청이 올때마다 노트북을 켜야하는 상황이 될거 같음?! :(&lt;/li&gt;
-  &lt;li&gt;그래서 핸드폰으로 스크립트를 실행해야겠다고 생각하고 &lt;a href=&quot;https://aws.amazon.com/ko/free/?all-free-tier.sort-by=item.additionalFields.SortRank&amp;amp;all-free-tier.sort-order=asc&quot;&gt;aws free tier&lt;/a&gt; 계정으로 t2.micro instance를 하나 만들고 python script를 deploy함&lt;/li&gt;
-  &lt;li&gt;핸드폰에서 t2.micro instance에 접속하기 위해서는 pem 파일을 핸드폰에서 다운받고 &lt;a href=&quot;https://termius.com/&quot;&gt;termius&lt;/a&gt; 라는 앱을 통해서 pem을 key로 등록해야함. 접속해서 스크립트 실행성공!&lt;/li&gt;
-  &lt;li&gt;근데 slack으로 인스턴스를 켜달라는 요청을 받고 또 앱을 켜고 하는것 마저 귀찮아!&lt;/li&gt;
-  &lt;li&gt;slack bot을 이용하면 어떨까? (어디서 본거 같은 기억이 있어서..)&lt;/li&gt;
-  &lt;li&gt;slack에서 요청을 받으면 바로 slack bot에서 on/off/status command로 켜고 끈다 는 시나리오로 변경하자&lt;/li&gt;
-  &lt;li&gt;nodejs로 &lt;a href=&quot;https://slack.dev/node-slack-sdk/rtm-api&quot;&gt;Real Time Messaging API&lt;/a&gt; 를 써서 발급받은 token만 넣고, python-shell library를 써서 만들어놓은 python script를 실행하는 방법으로 구현 &lt;a href=&quot;https://github.com/sunholee0127/skt-scripts/blob/master/chatbot/index.js&quot;&gt;Instance on/off chatbot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;말 못할 사정으로 다른 사람이 요청할때 마다, 인스턴스를 켜고 꺼줘야 하는 상황이 됨&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;처음에는 웹으로 로긴해서 버튼 클릭&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;매번 웹으로 로긴해서 인스턴스를 ip로 검색해서 버튼 클릭이 귀찮아져서 boto3를 이용해서 start/stop할수 있는 python script를 만들었음
+&lt;a href=&quot;https://github.com/sunholee0127/skt-scripts/blob/master/chatbot/aws_manage.py&quot;&gt;Python Script&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;근데 생각해보니 매번 Slack 으로 요청이 올때마다 노트북을 켜야하는 상황이 될거 같음?! :(&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그래서 핸드폰으로 스크립트를 실행해야겠다고 생각하고 &lt;a href=&quot;https://aws.amazon.com/ko/free/?all-free-tier.sort-by=item.additionalFields.SortRank&amp;amp;all-free-tier.sort-order=asc&quot;&gt;aws free tier&lt;/a&gt; 계정으로 t2.micro instance를 하나 만들고 python script를 deploy함&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;핸드폰에서 t2.micro instance에 접속하기 위해서는 pem 파일을 핸드폰에서 다운받고 &lt;a href=&quot;https://termius.com/&quot;&gt;termius&lt;/a&gt; 라는 앱을 통해서 pem을 key로 등록해야함. 접속해서 스크립트 실행성공!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;근데 slack으로 인스턴스를 켜달라는 요청을 받고 또 앱을 켜고 하는것 마저 귀찮아!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;slack bot을 이용하면 어떨까? (어디서 본거 같은 기억이 있어서..)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;slack에서 요청을 받으면 바로 slack bot에서 on/off/status command로 켜고 끈다 는 시나리오로 변경하자&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;nodejs로 &lt;a href=&quot;https://slack.dev/node-slack-sdk/rtm-api&quot;&gt;Real Time Messaging API&lt;/a&gt; 를 써서 발급받은 token만 넣고, python-shell library를 써서 만들어놓은 python script를 실행하는 방법으로 구현 &lt;a href=&quot;https://github.com/sunholee0127/skt-scripts/blob/master/chatbot/index.js&quot;&gt;Instance on/off chatbot&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;aws 계정정보&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;sunholee1217@sk.com 서울 region&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><summary type="html">Slack으로 인스턴스 Start/Stop 하기</summary></entry><entry><title type="html">CNN with Tensorflow</title><link href="/2019/11/27/Tensorflow.html" rel="alternate" type="text/html" title="CNN with Tensorflow" /><published>2019-11-27T00:00:00+09:00</published><updated>2019-11-27T00:00:00+09:00</updated><id>/2019/11/27/Tensorflow</id><content type="html" xml:base="/2019/11/27/Tensorflow.html">&lt;h2 id=&quot;cnn&quot;&gt;CNN&lt;/h2&gt;
 
 &lt;ul&gt;
